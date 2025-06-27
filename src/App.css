@@ -1,0 +1,32 @@
+.app{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    background: radial-gradient(
+    circle at 20% 20%,
+    #FFFCF4 0%,
+  #DDF5B1 33%,
+  #E3FEEE 66%,
+  #CED6F1 100%
+);
+}
+
+/* App.css */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  overflow: hidden; 
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-top: 16px;
+  box-sizing: border-box;
+}

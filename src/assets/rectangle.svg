@@ -1,0 +1,24 @@
+<svg width="488" height="599" viewBox="0 0 488 599" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-6" y="-15.4248" width="500" height="613.825"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(12.5px);clip-path:url(#bgblur_0_15_1587_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_d_15_1587)" data-figma-bg-blur-radius="25">
+<path d="M19 88.5688C19 40.4261 62.7066 3.92221 110.425 10.3003C153.278 16.0282 203.657 21.2961 244 21.2961C284.343 21.2961 334.722 16.0282 377.575 10.3003C425.293 3.92221 469 40.4262 469 88.5689V494C469 536.526 434.526 571 392 571H96C53.4741 571 19 536.526 19 494V88.5688Z" fill="white" fill-opacity="0.05" shape-rendering="crispEdges"/>
+<path d="M377.708 11.292C424.857 4.99028 468 41.0616 468 88.5693V494C468 535.974 433.974 570 392 570H96C54.0264 570 20 535.974 20 494V88.5684C20.0003 41.4317 62.4726 5.55349 109.188 11.1514L110.292 11.291C153.156 17.0203 203.589 22.2959 244 22.2959C283.148 22.2959 331.701 17.3453 373.667 11.8271L377.708 11.292Z" stroke="url(#paint0_linear_15_1587)" stroke-width="2" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_d_15_1587" x="-6" y="-15.4248" width="500" height="613.825" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="9"/>
+<feGaussianBlur stdDeviation="9.2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_15_1587"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_15_1587" result="shape"/>
+</filter>
+<clipPath id="bgblur_0_15_1587_clip_path" transform="translate(6 15.4248)"><path d="M19 88.5688C19 40.4261 62.7066 3.92221 110.425 10.3003C153.278 16.0282 203.657 21.2961 244 21.2961C284.343 21.2961 334.722 16.0282 377.575 10.3003C425.293 3.92221 469 40.4262 469 88.5689V494C469 536.526 434.526 571 392 571H96C53.4741 571 19 536.526 19 494V88.5688Z"/>
+</clipPath><linearGradient id="paint0_linear_15_1587" x1="29.5469" y1="50.0179" x2="424.702" y2="543.52" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.2"/>
+<stop offset="0.52" stop-opacity="0"/>
+<stop offset="1" stop-color="white" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
+</svg>
