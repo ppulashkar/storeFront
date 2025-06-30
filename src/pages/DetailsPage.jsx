@@ -53,10 +53,12 @@ const DetailsPage = ({ tab }) => {
   return (
     <div>
       <Typography
-        variant="h7"
         sx={{
-          fontWeight: 700,
           fontFamily: "Open Sans, sans-serif",
+          fontWeight: 500,
+          fontSize: "1.5rem",
+          lineHeight: "160%",
+          letterSpacing: "-0.06em",
           color: "#383838",
           whiteSpace: "normal",
           overflow: "hidden",
@@ -91,16 +93,20 @@ const DetailsPage = ({ tab }) => {
 
         {(tab?.sponsoredBy || tab?.poweredBy) && (
           <div className="sponsor-powered-block">
-            {tab?.sponsoredBy && (
-              <div>
-                Sponsoring Partner: <b>{tab?.sponsoredBy}</b>
-              </div>
-            )}
-            {tab?.poweredBy && (
-              <div>
-                Enabling Partner: <b>{tab?.poweredBy}</b>
-              </div>
-            )}
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: "2px" }}
+            >
+              {tab?.sponsoredBy && (
+                <div className="sponsoring-name">
+                  Sponsoring Partner: <b>{tab?.sponsoredBy}</b>
+                </div>
+              )}
+              {tab?.poweredBy && (
+                <div className="powering-name">
+                  Enabling Partner: <b>{tab?.poweredBy}</b>
+                </div>
+              )}
+            </div>
           </div>
         )}
       </div>

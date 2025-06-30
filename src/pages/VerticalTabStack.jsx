@@ -3,7 +3,7 @@ import { Box, Typography } from "@mui/material";
 import { AppContext } from "../context/AppContext";
 
 const VerticalTabStack = ({ tabsData, onSelect }) => {
-  const { stateData, updateState } = useContext(AppContext);
+  const { stateData } = useContext(AppContext);
   console.log("stateData", stateData);
 
   return (
@@ -74,13 +74,17 @@ const VerticalTabStack = ({ tabsData, onSelect }) => {
             <Typography
               variant="body2"
               sx={{
-                fontWeight: 400,
                 fontFamily: "Open Sans, sans-serif",
+                fontWeight: 500,
+                fontSize: "1rem",
+                lineHeight: "160%",
+                letterSpacing: "-0.06em",
                 color: "#474747",
               }}
             >
               {tab.name}
             </Typography>
+
             {/* Description is intentionally omitted */}
           </Box>
         ))}

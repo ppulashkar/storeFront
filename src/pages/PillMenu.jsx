@@ -54,6 +54,7 @@ const PillMenu = () => {
                 fontFamily: "Open Sans, sans-serif",
                 color: "#4F7706",
                 fontSize: "16px",
+                fontWeight:"400",
                 lineHeight: 1.5,
               }}
             >

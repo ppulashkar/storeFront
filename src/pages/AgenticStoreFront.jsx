@@ -108,15 +108,20 @@ const AgenticStorefront = () => {
                     />
                     {item?.name && (
                       <Typography
-                        // fontWeight="bold"
                         sx={{
                           fontFamily: "Open Sans, sans-serif",
-                          color: "#213547",
+                          fontWeight: 400,
+                          lineHeight: 1.4,
+                          letterSpacing: "0em",
                           textAlign: "center",
                           width: "80%",
                           whiteSpace: "nowrap",
                           overflow: "hidden",
                           textOverflow: "ellipsis",
+                          paddingX: 2,
+                          paddingTop: 1,
+                          color: "#1A1A1A",
+                          borderRadius: 1,
                         }}
                       >
                         {item?.name}

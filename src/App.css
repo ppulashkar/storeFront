@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Overlock SC';
+  src: url('/fonts/OverlockSC-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .app{
     font-family: 'Times New Roman', Times, serif;
     min-height: 100vh;

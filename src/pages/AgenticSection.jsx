@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import Agentic_Logo from "../assets/svg/Agentic_Logo.svg";
+import "../App.css";
 
 const AgenticSection = () => {
   const heading = {
@@ -21,12 +22,12 @@ const AgenticSection = () => {
         height: "100%",
         maxHeight: "110px",
         justifyContent: "space-between",
-        overflow: "hidden"
+        overflow: "hidden",
       }}
     >
       <Box
         sx={{
-           width: { xs: "100%", md: "70%" },
+          width: { xs: "100%", md: "70%" },
           display: "flex",
           flexDirection: "column",
           alignItems: "flex-start",
@@ -44,20 +45,22 @@ const AgenticSection = () => {
         /> */}
         <Typography
           sx={{
-            fontFamily: "Overlock SC, cursive",
+            fontFamily: "'Overlock SC', 'Open Sans', sans-serif",
             color: "#4F7706",
-            fontSize: "32px",
+            fontSize: 32, 
             lineHeight: 1.5,
           }}
         >
           {heading?.title.toUpperCase()}
         </Typography>
+
         <Typography
           sx={{
-            fontFamily: 'Open Sans, sans-serif',
-            color: "#4F7706",
-            fontSize: "16px", // Example size
+            fontFamily: "Open Sans, sans-serif",
+            fontWeight: 500,
+            fontSize: "1rem",
             lineHeight: 1.5,
+            color: "#4F7706",
           }}
         >
           {heading?.description}

@@ -67,11 +67,12 @@ children,
           target="_blank"
           rel="noreferrer"
           style={{
-            fontSize: "20px",
-            fontWeight: 400,
+            fontFamily: "Open Sans, sans-serif",
+            fontSize: "1rem",
+            fontWeight: 500,
             color: "#2C5234",
             textDecoration: "none",
-            letterSpacing: "-3%",
+            letterSpacing: "-0.06em",
             lineHeight: "100%",
           }}
         >
