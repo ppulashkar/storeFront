@@ -1,51 +1,59 @@
 import React from "react";
-import { AppBar, Toolbar, Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import FooterItem from "../pages/FooterItem";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import Ashwin_pic from "../assets/svg/Ashwin_pic.svg";
+import Moumita_pic from "../assets/svg/Moumita_pic.svg"
 
 const Footer = () => {
   return (
-    <AppBar
-      position="static"
-      component="footer"
-      sx={{ top: "auto", bottom: 0, backgroundColor: "#2C5234", boxShadow: 1 }}
+    <Box
+      sx={{
+        backgroundColor: "#2C5234",
+        display: "flex",
+        flexWrap: "wrap",
+        gap: 4,
+        justifyContent: "space-between",
+        px: {
+          xs: 1,
+          sm: 2,
+          md: 3,
+          lg: 4,
+        },
+        py: 2,
+      }}
     >
-      <Toolbar
-        sx={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          height: { xs: 40, sm: 50 }, // Responsive height similar to TopBar
-          //   px: { xs: 1, sm: 2 },
-          px: {
-            xs: 1,
-            sm: 2,
-            md: 3,
-            lg: 4,
-          },
-          flexDirection: { xs: "column", sm: "row" }, // Stack vertically on mobile
-          textAlign: { xs: "center", sm: "left" },
-        }}
-      >
-        {/* Left Side: Email */}
-        <Typography
-          variant="body2"
-          sx={{
-            color: "#000000",
-            fontSize: { xs: "0.75rem", sm: "0.9rem" },
-            mb: { xs: 0.5, sm: 0 },
-          }}
-        >
-          contact@deloitte.com
-        </Typography>
+      {/* Email Section */}
+      <FooterItem
+        title={
+          <>
+            <MailOutlineIcon
+              fontSize="small"
+              sx={{ mr: 0.5 }}
+              fill= "white"
+            />
+            E-Mail
+          </>
+        }
+        value="agenticai@deloitte.com"
+      />
 
-        {/* Right Side: Sponsor Details */}
-        <Typography
-          variant="body2"
-          sx={{ color: "#000000", fontSize: { xs: "0.75rem", sm: "0.9rem" } }}
-        >
-          Sponsored by Deloitte
-        </Typography>
-      </Toolbar>
-    </AppBar>
+      <Box display={"flex"} gap={4}>
+        {/* Ashwin Vellody */}
+        <FooterItem
+          title="Ashwin Vellody"
+          value="ashvinv@deloitte.com"
+          avatarUrl={Ashwin_pic}
+        />
+
+        {/* Moumita Sarker */}
+        <FooterItem
+          title="Moumita Sarker"
+          value="msarker@deloitte.com"
+          avatarUrl={Moumita_pic}
+        />
+      </Box>
+    </Box>
   );
 };
 
