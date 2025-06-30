@@ -11,6 +11,7 @@ export const DeloitteInternalUseCaseConstants = [
     info: [
       {
         title: "RFP Assist",
+        icon: "",
         description:
           "Enable intelligent search through documents, manuals, and past projects.",
         useCaseOptions: [
@@ -27,6 +28,7 @@ export const DeloitteInternalUseCaseConstants = [
     info: [
       {
         title: "Skills Mapping",
+        icon: "",
         description:
           "AI-powered training recommendations based on employee profiles.",
         useCaseOptions: [
@@ -43,6 +45,7 @@ export const DeloitteInternalUseCaseConstants = [
     info: [
       {
         title: "CV Matching",
+        icon: "",
         description:
           "Automate repetitive workflows and assign tasks based on skill match.",
         useCaseOptions: [
@@ -59,6 +62,7 @@ export const DeloitteInternalUseCaseConstants = [
     info: [
       {
         title: "Audit Trail Monitoring",
+        icon: "",
         description:
           "Track, monitor and validate regulatory workflows automatically.",
         useCaseOptions: [
