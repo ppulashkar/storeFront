@@ -1,8 +1,11 @@
+import react, { useState, useContext } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Box from "@mui/material/Box";
+import { AppContext } from "../context/AppContext";
 
 const Layout = ({ children }) => {
+  const { stateData } = useContext(AppContext);
   return (
     <Box
       sx={{
@@ -19,9 +22,9 @@ const Layout = ({ children }) => {
           flex: 1,
           overflowY: "auto",
           px: {
-            xs: 1, 
-            sm: 2, 
-            md: 3, 
+            xs: 1,
+            sm: 2,
+            md: 3,
             lg: 4,
           },
           paddingTop: 2,
@@ -29,7 +32,7 @@ const Layout = ({ children }) => {
       >
         {children}
       </Box>
-      <Footer />
+      {!stateData?.category && <Footer />}
     </Box>
   );
 };

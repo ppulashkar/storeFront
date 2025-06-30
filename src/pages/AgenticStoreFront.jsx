@@ -117,7 +117,6 @@ const AgenticStorefront = () => {
                           whiteSpace: "nowrap",
                           overflow: "hidden",
                           textOverflow: "ellipsis",
-                          fontSize: "clamp(0.6rem, 4vw, 1rem)",
                         }}
                       >
                         {item?.name}
@@ -150,10 +149,6 @@ const AgenticStorefront = () => {
                       color: "#213547",
                       textAlign: "center",
                       width: "80%",
-                      whiteSpace: "nowrap",
-                      overflow: "hidden",
-                      textOverflow: "ellipsis",
-                      fontSize: "clamp(0.6rem, 4vw, 1rem)",
                     }}
                   >
                     {item?.description || "Show Description"}

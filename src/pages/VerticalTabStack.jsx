@@ -24,7 +24,6 @@ const VerticalTabStack = ({ tabsData, onSelect }) => {
             whiteSpace: "normal",
             overflow: "hidden",
             textOverflow: "ellipsis",
-            // fontSize: "clamp(1rem, 3vw, 1.8rem)", // Shrinks with viewport
           }}
         >
           {tabsData?.title}
@@ -41,7 +40,6 @@ const VerticalTabStack = ({ tabsData, onSelect }) => {
             display: "-webkit-box",
             WebkitLineClamp: 3,
             WebkitBoxOrient: "vertical",
-            // fontSize: "clamp(1rem, 3vw, 1.8rem)", // Shrinks with viewport
           }}
         >
           {tabsData?.description}

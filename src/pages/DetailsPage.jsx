@@ -10,21 +10,45 @@ const DetailsPage = ({ tab }) => {
 
   if (!stateData) return <div>Context not available</div>;
 
+  // const navigatePage = (item) => {
+  //   switch (item?.text) {
+  //     case "Live demo":
+  //       if (tab?.link) window.open(tab?.link, "_blank");
+  //       break;
+  //     case "Demo video":
+  //       if (tab?.videoLink) window.open(tab?.videoLink, "_blank");
+  //       break;
+  //     case "Agentic workflow":
+  //       if (tab?.workFlowLink) window.open(tab?.workFlowLink, "_blank");
+  //       break;
+  //     default:
+  //       break;
+  //   }
+  // };
+
   const navigatePage = (item) => {
-    switch (item?.text) {
-      case "Live demo":
-        if (tab?.link) window.open(tab?.link, "_blank");
-        break;
-      case "Demo Video":
-        if (tab?.videoLink) window.open(tab?.videoLink, "_blank");
-        break;
-      case "Agentic Workflow":
-        if (tab?.workFlowLink) window.open(tab?.workFlowLink, "_blank");
-        break;
-      default:
-        break;
-    }
-  };
+  let link = null;
+
+  switch (item?.text) {
+    case "Live demo":
+      link = tab?.link;
+      break;
+    case "Demo video":
+      link = tab?.videoLink;
+      break;
+    case "Agentic workflow":
+      link = tab?.workFlowLink;
+      break;
+    default:
+      break;
+  }
+
+  if (link) {
+    window.open(link, "_blank");
+  } else {
+    alert(`No link found for "${item?.text}"`);
+  }
+};
 
   return (
     <div>
@@ -37,7 +61,6 @@ const DetailsPage = ({ tab }) => {
           whiteSpace: "normal",
           overflow: "hidden",
           textOverflow: "ellipsis",
-          // fontSize: "clamp(1rem, 3vw, 1.8rem)", // Shrinks with viewport
         }}
       >
         {tab?.name}

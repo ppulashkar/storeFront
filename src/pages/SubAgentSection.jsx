@@ -9,15 +9,15 @@ const SubAgentSection = () => {
   const { stateData, updateState } = useContext(AppContext);
 
   const [subCategories, setSubCategories] = useState([]);
-    const dataMap = {
-      "Functional": FunctionalData,
-      "Sectors": IndustrySectorsData,
-      "Deloitte Internal": DeloitteInternalData,
-    };
-  
-    useEffect(() => {
-      setSubCategories(dataMap[stateData.category]);
-    }, [stateData.category]);
+  const dataMap = {
+    Functional: FunctionalData,
+    Sectors: IndustrySectorsData,
+    "Deloitte Internal": DeloitteInternalData,
+  };
+
+  useEffect(() => {
+    setSubCategories(dataMap[stateData.category]);
+  }, [stateData.category]);
 
   const subMenuSelectionChange = (item, index) => {
     updateState("subCategoryIndex", index);
@@ -43,7 +43,8 @@ const SubAgentSection = () => {
             boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",
             borderRadius: 8,
             width: { xs: "100%", sm: "calc(33.33% - 16px)" }, // Full width on mobile, 3-per-row on larger
-            height: 120,
+            // height: 120,
+            aspectRatio: "11",
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
@@ -77,11 +78,9 @@ const SubAgentSection = () => {
                 fontFamily: "Open Sans, sans-serif",
                 color: "#1A1A1A",
                 textAlign: "left",
-                // width: "80%",
-                whiteSpace: "nowrap",
-                overflow: "hidden",
-                textOverflow: "ellipsis",
-                fontSize: "clamp(0.6rem, 4.5vw, 1.2rem)",
+                fontSize: "1.2rem",
+                wordBreak: "break-word",
+                overflowWrap: "break-word",
               }}
             >
               {item?.name}

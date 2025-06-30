@@ -166,7 +166,7 @@ const AgenticUseCase = () => {
                     whiteSpace: "normal",
                     overflow: "hidden",
                     textOverflow: "ellipsis",
-                    fontSize: "clamp(0.6rem, 1.8vw, 1rem)", // Shrinks with viewport
+                    // fontSize: "clamp(0.6rem, 1.8vw, 1rem)", // Shrinks with viewport
                   }}
                 >
                   {item?.title}
