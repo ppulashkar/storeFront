@@ -6,35 +6,35 @@ import SalesnMarket from "../assets/UseCaseSalesnMarket.svg";
 import SupplyChain from "../assets/UseCaseSupplyChain.svg";
 
  export const FunctionalData = [
-    {
-        id: 1,
-        name: "Sales and Marketing",
-        icon: SalesnMarket,
-    },
-    {
-        id:2,
-        name: "Finance Transformation",
-        icon: FinTranform,
-    },
-    {
-        id: 3,
-        name: "IT Implement & Operate",
-        icon: RisknAssure,
-    },
-    {
-        id:4,
-        name: "HR Transformation",
-        icon: HRTransform,
-    },
-    {
-        id:5,
-        name: "Supply Chain & Logistics",
-        icon: SupplyChain,
-    },
-    {
-        id : 6,
-        name: "Risk Security & Controls",
-        icon: Operate,
-    }, 
-];
+   {
+     id: 1,
+     name: "Sales and Marketing",
+     icon: SalesnMarket,
+   },
+   {
+     id: 2,
+     name: "Finance Transformation",
+     icon: FinTranform,
+   },
+   {
+     id: 3,
+     name: "IT Implement & Operate",
+     icon: Operate,
+   },
+   {
+     id: 4,
+     name: "HR Transformation",
+     icon: HRTransform,
+   },
+   {
+     id: 5,
+     name: "Supply Chain & Logistics",
+     icon: SupplyChain,
+   },
+   {
+     id: 6,
+     name: "Risk Security & Controls",
+     icon: RisknAssure,
+   },
+ ];
 

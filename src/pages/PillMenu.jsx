@@ -22,7 +22,7 @@ const PillMenu = () => {
           <Button
             key={index}
             sx={{
-              border: isActive ? "2px solid #699120" : "2px solid none",
+              border: isActive ? "2px solid #699120" : "2px solid transparent",
               borderImageSlice: 1,
               backdropFilter: "blur(25px)",
               boxShadow: "0px 9px 18.4px 0px #00000040",
@@ -36,8 +36,10 @@ const PillMenu = () => {
               justifyContent: "center",
               gap: 1,
               textTransform: "none",
+              opacity: isActive ? 1 : 0.5,
+              transition: "opacity 0.3s ease",
             }}
-            onClick={(event) => selectionChange(item?.name)}
+            onClick={() => selectionChange(item?.name)}
           >
             <Box
               component="img"
@@ -52,9 +54,9 @@ const PillMenu = () => {
             <Typography
               sx={{
                 fontFamily: "Open Sans, sans-serif",
-                color: "#4F7706",
-                fontSize: "16px",
-                fontWeight:"400",
+                color: "#2C5234",
+                fontSize: "20px",
+                fontWeight:"500",
                 lineHeight: 1.5,
               }}
             >
