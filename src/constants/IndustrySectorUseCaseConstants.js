@@ -14,12 +14,14 @@ export const IndustryUseCaseConstants = [
     info: [
       {
         title: "CAM Update",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
      /*  {
         title: "RM Enablement",
+        icon: "",
         description: `End-to-end internal audit services (outsourced or co-sourced), 
                 Controls testing Assurance over internal processes, systems, and risk mitigation`,
         useCaseOptions: [],
@@ -33,12 +35,14 @@ export const IndustryUseCaseConstants = [
     info: [
       {
         title: "Virtual assistant for shopping",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
       /* {
         title: "Claim Processesing",
+        icon: "",
         description: `End-to-end internal audit services (outsourced or co-sourced), 
                 Controls testing Assurance over internal processes, systems, and risk mitigation`,
         useCaseOptions: [],
@@ -52,12 +56,14 @@ export const IndustryUseCaseConstants = [
     info: [
       {
         title: "Doctor’s payout ",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
       /* {
         title: "Shift Planning",
+        icon: "",
         description: `End-to-end internal audit services (outsourced or co-sourced), 
                 Controls testing Assurance over internal processes, systems, and risk mitigation`,
         useCaseOptions: [],
@@ -71,18 +77,21 @@ export const IndustryUseCaseConstants = [
     info: [
       {
         title: "Customer onboarding & credit vetting",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
       {
         title: "Media content ID creation & registration",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
       {
         title: "Media Sales Order",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
@@ -96,12 +105,14 @@ export const IndustryUseCaseConstants = [
     info: [
       {
         title: "Warranty Management ",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
      /*  {
         title: "Warranty Processing",
+        icon: "",
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
@@ -113,12 +124,13 @@ export const IndustryUseCaseConstants = [
     icon: GovtPSU,
     name: "Government",
     info: [
-    //   {
-    //     title: "Citizen Grievence Management",
-    //     description: `Designing and implementing risk management frameworks, 
-    //             Risk appetite definition, Strategic, operational, and reputational risk assessments`,
-    //     useCaseOptions: [],
-    //   },
+      // {
+      //   title: "Citizen Grievence Management",
+      //    icon: "",
+      //   description: `Designing and implementing risk management frameworks, 
+      //           Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+      //   useCaseOptions: [],
+      // },
     ],
   },
 //   {
@@ -128,6 +140,7 @@ export const IndustryUseCaseConstants = [
 //     info: [
 //       {
 //         title: "Advertisement Slots Planning",
+//          icon: "",
 //         description: `Designing and implementing risk management frameworks, 
 //                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
 //         useCaseOptions: [],

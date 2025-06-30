@@ -14,6 +14,7 @@ export const FunctionalUseCaseConstants = [
       {
         id: 101,
         title: "Sales Planning",
+        icon: "",
         description: `A solution dedicated to streamlining the sales planning process by automating manual tasks like validation, audit, order creation, and KPI checks using a suite of intelligent agents.
 Key components include a supervisor agent for coordination, summary agent for meeting notes and reminders, store management agent for inventory handling, and sales agent for sales operations and insights. 
 This reduces errors, redundancies, and turnaround time caused by human intervention. It enhances operational efficiency, accelerates case resolution, and delivers a seamless cross-platform experience. `,
@@ -41,12 +42,14 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
       {
         id: 102,
         title: "Trade Promo Optimizer",
+        icon: "",
         description: ``,
         useCaseOptions: [],
       },
       {
         id: 103,
         title: "Marketing Plan",
+        icon: "",
         description: ``,
         useCaseOptions: [
           {
@@ -65,12 +68,14 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
       {
         id: 104,
         title: "Campaign Performance",
+        icon: "",
         description: `Automation of insights and recommendations from the data on the platform and to identify any mismatches/ missing data for QC`,
         useCaseOptions: [],
       },
       {
         id: 105,
         title: "Sales assistant",
+        icon: "",
         description: `Automation of insights and recommendations from the data on the platform and to identify any mismatches/ missing data for QC`,
         useCaseOptions: [
           {
@@ -94,6 +99,7 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
       {
         id: 201,
         title: "Procure to Pay",
+        icon: "",
         description: `The solution automates the manual and error-prone P2P process through intelligent agent-led workflows.
 It uses OCR, invoice extraction, 3-way matching, validation, exception-handling agents (among others) to streamline vendor onboarding, invoice management, and payment processing. By minimizing human intervention, the tool significantly reduces effort, errors, and delays. 
 It enables seamless, autonomous PTP process. The solution leads to significant reduction in man-hours and error elimination, enhancing overall procurement efficiency.`,
@@ -124,24 +130,28 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
       {
         id: 202,
         title: "Order to Cash",
+        icon: "",
         description: ``,
         useCaseOptions: [],
       },
       {
         id: 203,
         title: "Record to Report",
+        icon: "",
         description: ``,
         useCaseOptions: [],
       },
       {
         id: 204,
         title: "Reconciliation",
+        icon: "",
         description: `Agentic solution to close deemed settlement transactions using fuzzy logic and getting additional information as needed`,
         useCaseOptions: [],
       },
       {
         id: 205,
         title: "Finance documentation",
+        icon: "",
         description: `Agentic solution to close deemed settlement transactions using fuzzy logic and getting additional information as needed`,
         useCaseOptions: [
           {
@@ -165,6 +175,7 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
       {
         id: 301,
         title: "SDLC",
+        icon: "",
         description: `Agentic transformation of entire SDLC process by the use of multiple agents such as Requirement Gathering, Design, Code Generation, Testing, Deployment, Review & Governance. It offers persona based access to relevant workflows across different phases of SDLC`,
         useCaseOptions: [
           {
@@ -181,18 +192,21 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
       {
         id: 302,
         title: "ITSM",
+        icon: "",
         description: ``,
         useCaseOptions: [],
       },
       {
         id: 303,
         title: "AMS Operate",
+        icon: "",
         description: `Application management services - Incident & service request management, Problem & change management, bug fixes, enhancements & improvements, Data operations & management`,
         useCaseOptions: [],
       },
       {
         id: 304,
         title: "App Development",
+        icon: "",
         description: `Application management services - Incident & service request management, Problem & change management, bug fixes, enhancements & improvements, Data operations & management`,
         useCaseOptions: [],
       },
@@ -206,6 +220,7 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
       {
         id: 401,
         title: "HR Recruitment",
+        icon: "",
         description: `Agentic tool which allows creation of chat window, custom forms and co-pilot for interactive user experience rather than building UI from scratch.
 Low code tool allows easier integration & management of multiple technology solution`,
         useCaseOptions: [
@@ -230,6 +245,7 @@ Low code tool allows easier integration & management of multiple technology solu
       {
         id: 402,
         title: "Workforce Productivity & Management",
+        icon: "",
         description: ``,
         useCaseOptions: [
           {
@@ -248,6 +264,7 @@ Low code tool allows easier integration & management of multiple technology solu
       {
         id: 501,
         title: "Supply chain management",
+        icon: "",
         description: ``,
         useCaseOptions: [
           {
@@ -266,6 +283,7 @@ Low code tool allows easier integration & management of multiple technology solu
       {
         id: 601,
         title: "Compliance",
+        icon: "",
         description: `The solution automates the manual audit of IT system security controls by leveraging an agentic approach. The agent reads screenshots, extracts parameters, checks compliance against the CSI benchmark guide, and identifies reasons and remediations for non-compliance.
 It then compiles the findings into a structured report format. This eliminates the need for repetitive manual reviews and enhances accuracy. 
 The solution significantly reduces man-hours and boosts overall audit efficiency.`,
