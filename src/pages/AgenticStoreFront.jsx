@@ -110,7 +110,7 @@ const AgenticStorefront = () => {
                       <Typography
                         sx={{
                           fontFamily: "Open Sans, sans-serif",
-                          fontWeight: 400,
+                          fontWeight: 500,
                           lineHeight: 1.4,
                           letterSpacing: "0em",
                           textAlign: "center",
