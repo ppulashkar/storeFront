@@ -5,26 +5,9 @@ import { DetailsConstants } from "../constants/DetailsConstants";
 import "../pages/css/DetailsPage.css";
 
 const DetailsPage = ({ tab }) => {
-  console.log("tab", tab);
   const { stateData, updateState } = useContext(AppContext);
 
   if (!stateData) return <div>Context not available</div>;
-
-  // const navigatePage = (item) => {
-  //   switch (item?.text) {
-  //     case "Live demo":
-  //       if (tab?.link) window.open(tab?.link, "_blank");
-  //       break;
-  //     case "Demo video":
-  //       if (tab?.videoLink) window.open(tab?.videoLink, "_blank");
-  //       break;
-  //     case "Agentic workflow":
-  //       if (tab?.workFlowLink) window.open(tab?.workFlowLink, "_blank");
-  //       break;
-  //     default:
-  //       break;
-  //   }
-  // };
 
   const navigatePage = (item) => {
   let link = null;
