@@ -118,8 +118,10 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
             link: "http://13.127.21.116:5000/",
             poweredBy: "Agentic CoE",
             sponsoredBy: "Pallav Chaturvedi",
-            videoLink: "https://apcdeloitte.sharepoint.com/sites/AgenticAICoreteam/_layouts/15/stream.aspx?id=%2Fsites%2FAgenticAICoreteam%2FShared%20Documents%2FAgentic%20AI%2FAsset%5FDemo%5FVideos%2FAgenticAI%2FStorefront%2FP2P%5FDemo%5FVoiceover%5FV2%2Emp4&ga=1",
-            workFlowLink:"https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/ETcO-FcOHN9FgTLwCYwO_nMB1qXhQrQiq3yAKR2VXKpQUQ?e=2r6eja&wdLOR=cAE7C893A-D231-4D2E-9ECF-02F3CDB21B3E",
+            videoLink:
+              "https://indeloitte-my.sharepoint.com/personal/sreeray_deloitte_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsreeray%5Fdeloitte%5Fcom%2FDocuments%2FDesktop%2FAgentic%2FP2P%20Invoice%20Processing%20Demo%20Video%2Emp4&ct=1751286258942&or=Teams%2DHL&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4562cde1%2D7e7e%2D422d%2Dad98%2D275dc1d630e2",
+            workFlowLink:
+              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/ETcO-FcOHN9FgTLwCYwO_nMB1qXhQrQiq3yAKR2VXKpQUQ?e=2r6eja&wdLOR=cAE7C893A-D231-4D2E-9ECF-02F3CDB21B3E",
           },
           {
             id: 2014,

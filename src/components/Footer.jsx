@@ -1,9 +1,9 @@
 import React from "react";
 import { Box } from "@mui/material";
 import FooterItem from "../pages/FooterItem";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Ashwin_pic from "../assets/svg/Ashwin_pic.svg";
 import Moumita_pic from "../assets/svg/Moumita_pic.svg"
+import EmailEnvelope from "../assets/EnvelopeSimple.svg"
 
 const Footer = () => {
   return (
@@ -27,10 +27,10 @@ const Footer = () => {
       <FooterItem
         title={
           <>
-            <MailOutlineIcon
-              fontSize="small"
-              sx={{ mr: 0.5 }}
-              fill= "white"
+            <img
+              src={EmailEnvelope}
+              alt="Email icon"
+              style={{ width: 20, height: 20, marginRight: 5 }}
             />
             E-Mail
           </>

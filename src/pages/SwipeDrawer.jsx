@@ -76,7 +76,7 @@ children,
             lineHeight: "100%",
           }}
         >
-          Contact Us
+          {/* Contact Us */}
         </a>
       </Box>
       {view !== "detail" && (

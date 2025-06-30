@@ -75,7 +75,7 @@ const Header = () => {
               },
             }}
           >
-            Contact Us
+            {/* Contact Us */}
           </Typography>
         </Box>
       </Toolbar>

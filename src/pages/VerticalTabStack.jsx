@@ -28,7 +28,7 @@ const VerticalTabStack = ({ tabsData, onSelect }) => {
         >
           {tabsData?.title}
         </Typography>
-        <Typography
+        {/* <Typography
           variant="body2"
           sx={{
             fontWeight: 400,
@@ -43,7 +43,7 @@ const VerticalTabStack = ({ tabsData, onSelect }) => {
           }}
         >
           {tabsData?.description}
-        </Typography>
+        </Typography> */}
       </Box>
       <Box
         sx={{ display: "flex", flexDirection: "column", gap: 2, width: "100%" }}
