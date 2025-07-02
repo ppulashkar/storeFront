@@ -15,7 +15,7 @@ const AgenticSection = () => {
       sx={{
         border: "2px solid #699120",
         borderRadius: "16px",
-        padding: "8px 16px",
+        padding: "2px 16px",
         display: "flex",
         flexDirection: "row",
         flexShrink: 1,
@@ -23,6 +23,7 @@ const AgenticSection = () => {
         maxHeight: "110px",
         justifyContent: "space-between",
         overflow: "hidden",
+        alignItems: "center",
       }}
     >
       <Box
@@ -46,8 +47,8 @@ const AgenticSection = () => {
         <Typography
           sx={{
             fontFamily: "'Overlock SC', 'Open Sans', sans-serif",
-            color: "#4F7706",
-            fontSize: 32, 
+            color: "#2C5234",
+            fontSize: 32,
             lineHeight: 1.5,
           }}
         >
@@ -66,11 +67,12 @@ const AgenticSection = () => {
           {heading?.description}
         </Typography>
       </Box>
-      <Box display="flex" justifyContent="flex-end">
+      <Box display="flex" justifyContent="flex-end" alignItems="center">
         <img
           style={{
-            height: "100%",
+            maxHeight: "96px", // ✅ More stable
             objectFit: "contain",
+            alignItems: "center",
           }}
           src={heading?.logo}
           alt="Company Logo"

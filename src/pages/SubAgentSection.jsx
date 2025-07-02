@@ -43,7 +43,7 @@ const SubAgentSection = () => {
             boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",
             borderRadius: 8,
             width: { xs: "100%", sm: "calc(33.33% - 16px)" }, // Full width on mobile, 3-per-row on larger
-            // height: 120,
+            minHeight: 90,
             aspectRatio: "11",
             display: "flex",
             flexDirection: "row",

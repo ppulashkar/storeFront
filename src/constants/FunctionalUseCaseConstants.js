@@ -21,7 +21,7 @@ import AppDevelopment from "../assets/svg/ImplementOperate/AppDevelopment.svg";
 import HRRecruitment from "../assets/svg/HR/HRRecruitment.svg";
 import Productivity from "../assets/svg/HR/Productivity.svg";
 import SupplyChainLogistics from "../assets/svg/Supply/SupplyChain.svg";
-import Complaince from "../assets/svg/RiskAssure/Complaince.svg"
+import Complaince from "../assets/svg/RiskAssure/Complaince.svg";
 
 export const FunctionalUseCaseConstants = [
   {
@@ -77,9 +77,9 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
             name: "Query Sense ",
             link: "",
             videoLink:
-              "https://apcdeloitte.sharepoint.com/:v:/s/AgenticAICoreteam/EdILmz3yNHlDjB3qm3_oBuUB0Hfayzn2CE1Sz4pkquF2lw?e=084W2G",
+              "https://indeloitte-my.sharepoint.com/:v:/g/personal/kmalar_deloitte_com/ERbGTt8PVi5AoJDkQ0t1K2wBl5HfZxLRFuPuoj_39ep3bg?e=TwKmlI",
             workFlowLink:
-              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EXP05ZVokCxDvjr_GrJeNY8B3K3T8sEk8TnEa_Qh3bMDnw?e=3mUCPq&wdLOR=c334A3801-A12D-4F52-A86D-834074B66C5F",
+              "https://indeloitte-my.sharepoint.com/:p:/g/personal/kmalar_deloitte_com/EcjRzGCxl25Nk5xfUB9SQnMBttXtWT04LKdgrnib9kgB5A?e=MgLAyu",
             poweredBy: "",
             sponsoredBy: "",
             description: `Designing and implementing risk management frameworks,
@@ -105,9 +105,9 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
             name: "Qora",
             link: "",
             videoLink:
-              "https://apcdeloitte.sharepoint.com/:v:/s/AgenticAICoreteam/ERZSfh-ZEXZAnptOuOe6dZEBVWwpmvp3Xx-WNNfVdg0B4Q?e=dOhfXN",
+              "https://indeloitte-my.sharepoint.com/:v:/g/personal/kmalar_deloitte_com/EdcTSGPYhJ9GpPFF4TsM5_0B6uVwSzzcIQySJdZTRjqjww?e=AhjoV9",
             workFlowLink:
-              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/Ebp68PLDs_RHtlB9wSd6_V0BkCUZtXdRh5ifJk_EADb8Og?e=XaRkPW&wdLOR=c8BF8CA5C-8264-4317-B5C7-74C16BE645DB",
+              "https://indeloitte-my.sharepoint.com/:p:/g/personal/kmalar_deloitte_com/EZBhIxTm095FnWUyo7Th02IBLeROXtQLP-_4WUxLxi19OA?e=mGLBQv",
             description: `Designing and implementing risk management frameworks,
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
           },
@@ -208,10 +208,11 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
           {
             id: 3014,
             name: "SDLC Toolkit",
-            link: "https://agenticaifrontend-392853354701.us-central1.run.app/",
+            link: "https://agenticaifrontend-392853354701.us-central1.run.app",
             poweredBy: "Agentic CoE",
             sponsoredBy: "Vadiraj Muthya",
-            videoLink: "videoLink",
+            videoLink:
+              "https://indeloitte-my.sharepoint.com/personal/ssanjayamdekar_deloitte_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fssanjayamdekar%5Fdeloitte%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FBRD%20Generation%20%2D%20Made%20with%20Clipchamp%2027Jun2025%2Emp4&ct=1751443851481&or=Outlook%2DBody&cid=9095CC82%2D7877%2D410D%2D9AE6%2D9B485460D178&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8123f1a4%2Da28a%2D4536%2D9335%2D05bafb70c04f",
             workFlowLink:
               "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EZiswK9jCB9LsSygSuiCWRcB6lAUdl2Lk7HT5DP7oE09kQ?e=ZFYDcJ&wdLOR=cFDEE89EF-E858-4831-8D90-264AB562B033",
           },
@@ -259,7 +260,7 @@ Low code tool allows easier integration & management of multiple technology solu
             poweredBy: "Salman Siddiqui",
             sponsoredBy: "Salman Siddiqui",
             videoLink:
-              "https://apcdeloitte.sharepoint.com/sites/AgenticAICoreteam/_layouts/15/stream.aspx?id=%2Fsites%2FAgenticAICoreteam%2FShared%20Documents%2FAgentic%20AI%2FUse%5FCases%2F%5FAgentic%5FAI%5FOffice%5FUse%5FCases%2FCV%20Matching%2FFinal%20Demo%20Video%20v3%2E0%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1883f912%2D461a%2D4edd%2D808b%2D8a852bf97370",
+              "https://apcdeloitte.sharepoint.com/:v:/r/sites/AgenticAICoreteam/Shared%20Documents/Agentic%20AI/Use_Cases/_Agentic_AI_Office_Use_Cases/CV%20Matching/Final%20Demo%20Video%20v3.0.mp4?csf=1&web=1&e=nD0U2K",
             workFlowLink:
               "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/ERKWIIEgv6ZIu3P6JBWQ-ssBioyZYX5emZoxicpM472rHg?e=DkjYFg&wdLOR=cC91D575B-26A1-4FA4-87DD-979AFD6E8A1E",
           },

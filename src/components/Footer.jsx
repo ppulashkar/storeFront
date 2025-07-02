@@ -2,8 +2,8 @@ import React from "react";
 import { Box } from "@mui/material";
 import FooterItem from "../pages/FooterItem";
 import Ashwin_pic from "../assets/svg/Ashwin_pic.svg";
-import Moumita_pic from "../assets/svg/Moumita_pic.svg"
-import EmailEnvelope from "../assets/EnvelopeSimple.svg"
+import Moumita_pic from "../assets/svg/Moumita_pic.svg";
+import EmailEnvelope from "../assets/EnvelopeSimple.svg";
 
 const Footer = () => {
   return (
@@ -35,13 +35,13 @@ const Footer = () => {
             E-Mail
           </>
         }
-        value="agenticai@deloitte.com"
+        value="inttagenticaiteam@deloitte.com"
       />
 
       <Box display={"flex"} gap={4}>
         {/* Ashwin Vellody */}
         <FooterItem
-          title="Ashwin Vellody"
+          title="Ashvin Vellody"
           value="ashvinv@deloitte.com"
           avatarUrl={Ashwin_pic}
         />

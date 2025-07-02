@@ -1,41 +1,40 @@
-import BFSIBanking from "../assets/BFSI Banking.svg";
-import BFSIInsurance from "../assets/BFSI Insurance.svg";
-import LifeSciencePharma from "../assets/LifeScience&Pharma.svg";
-import Consumer from "../assets/Consumer.svg";
-import AutomobileEngineering from "../assets/Automobile&Engineering.svg";
-import GovtPSU from "../assets/Govt&PSU.svg";
-import TelcomMediaTech from "../assets/TelecomMedia.svg";
+import FinancialServices from "../assets/svg/Sectors/Financial Services.svg";
+import ConsumerRetailCPG from "../assets/svg/Sectors/Consumer Retail and CPG.svg";
+import LifeSciencesHealthcare from "../assets/svg/Sectors/Life Sciences and Healthcare.svg";
+import TelecomMediatech from "../assets/svg/Sectors/Telecom Media and tech.svg";
+import EnergyResourcesIndustrials from "../assets/svg/Sectors/Energy resources and industrials.svg";
+import Government from "../assets/svg/Sectors/Government.svg";
 
 export const IndustrySectorsData = [
   {
     id: 1,
     name: "Financial Services",
-    icon: BFSIBanking,
+    icon: FinancialServices,
   },
   {
     id: 2,
     name: "Consumer - Retail & CPG",
-    icon: BFSIInsurance,
+    icon: ConsumerRetailCPG,
   },
   {
     id: 3,
     name: "Life Sciences & Health Care",
-    icon: LifeSciencePharma,
+    icon: LifeSciencesHealthcare,
   },
   {
     id: 4,
     name: "Telecom, Media & Technology",
-    icon: TelcomMediaTech,
+    icon: TelecomMediatech,
   },
   {
     id: 5,
     name: "Energy Resources & Industrials",
-    icon: AutomobileEngineering,
+    icon: EnergyResourcesIndustrials,
   },
   {
     id: 6,
     name: "Government",
-    icon: GovtPSU,
+    icon: Government,
   },
   //   {
   //     id: 7,

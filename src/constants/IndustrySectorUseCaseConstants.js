@@ -1,25 +1,31 @@
-import BSFIBanking from "../assets/BFSI Banking.svg";
-import BSFIInsurance from "../assets/BFSI Insurance.svg";
-import LifeScience from "../assets/LifeScience&Pharma.svg";
-import Consumer from "../assets/Consumer.svg";
-import Automobile from "../assets/Automobile&Engineering.svg";
-import GovtPSU from "../assets/Govt&PSU.svg";
-import TelecomMedia from "../assets/TelecomMedia.svg";
+import FinancialServices from "../assets/svg/Sectors/Financial Services.svg"
+import ConsumerRetailCPG from "../assets/svg/Sectors/Consumer Retail and CPG.svg";
+import LifeSciencesHealthcare from "../assets/svg/Sectors/Life Sciences and Healthcare.svg";
+import TelecomMediatech from "../assets/svg/Sectors/Telecom Media and tech.svg";
+import EnergyResourcesIndustrials from "../assets/svg/Sectors/Energy resources and industrials.svg";
+import Government from "../assets/svg/Sectors/Government.svg";
 
+import CAMUPDATE from "../assets/svg/Sectors/Financial Services/CAMUPDATE.svg";
+import VirtualShoppingAssistant from "../assets/svg/Sectors/Consumer Retail and CPG/VirtualShoppingAssistant.svg";
+import DoctorsPayout from "../assets/svg/Sectors/Life Sciences and Healthcare/DoctorsPayout.svg";
+import WarrantyManagement from "../assets/svg/Sectors/Energy resources and industrials/WarrantyManagement.svg";
+import CXOnboarding from "../assets/svg/Sectors/Telecom Media and tech/CXOnboarding.svg"
+import MediaCreationReg from "../assets/svg/Sectors/Telecom Media and tech/MediaCreationReg.svg";
+import MediaSalesOrders from "../assets/svg/Sectors/Telecom Media and tech/MediaSalesOrders.svg";
 export const IndustryUseCaseConstants = [
   {
     id: 1,
-    icon: BSFIBanking,
+    icon: FinancialServices,
     name: "Financial Services",
     info: [
       {
         title: "CAM Update",
-        icon: "",
+        icon: CAMUPDATE,
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
-     /*  {
+      /*  {
         title: "RM Enablement",
         icon: "",
         description: `End-to-end internal audit services (outsourced or co-sourced), 
@@ -31,11 +37,11 @@ export const IndustryUseCaseConstants = [
   {
     id: 2,
     name: "Consumer - Retail & CPG",
-    icon: BSFIInsurance,
+    icon: ConsumerRetailCPG,
     info: [
       {
         title: "Virtual assistant for shopping",
-        icon: "",
+        icon: VirtualShoppingAssistant,
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
@@ -51,12 +57,12 @@ export const IndustryUseCaseConstants = [
   },
   {
     id: 3,
-    icon: LifeScience,
+    icon: LifeSciencesHealthcare,
     name: "Life Sciences & Health Care",
     info: [
       {
         title: "Doctor’s payout ",
-        icon: "",
+        icon: DoctorsPayout,
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
@@ -72,45 +78,45 @@ export const IndustryUseCaseConstants = [
   },
   {
     id: 4,
-    icon: TelecomMedia,
+    icon: TelecomMediatech,
     name: "Telecom, Media & Technology",
     info: [
       {
         title: "Customer onboarding & credit vetting",
-        icon: "",
+        icon: CXOnboarding,
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
       {
         title: "Media content ID creation & registration",
-        icon: "",
+        icon: MediaCreationReg,
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
       {
         title: "Media Sales Order",
-        icon: "",
-        description: `Designing and implementing risk management frameworks, 
-                Risk appetite definition, Strategic, operational, and reputational risk assessments`,
-        useCaseOptions: [],
-      }
-    ],
-  },
-  {
-    id: 5,
-    icon: Automobile,
-    name: "Energy Resources & Industrials",
-    info: [
-      {
-        title: "Warranty Management ",
-        icon: "",
+        icon: MediaSalesOrders,
         description: `Designing and implementing risk management frameworks, 
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
         useCaseOptions: [],
       },
-     /*  {
+    ],
+  },
+  {
+    id: 5,
+    icon: EnergyResourcesIndustrials,
+    name: "Energy Resources & Industrials",
+    info: [
+      {
+        title: "Warranty Management ",
+        icon: WarrantyManagement,
+        description: `Designing and implementing risk management frameworks, 
+                Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+        useCaseOptions: [],
+      },
+      /*  {
         title: "Warranty Processing",
         icon: "",
         description: `Designing and implementing risk management frameworks, 
@@ -121,30 +127,30 @@ export const IndustryUseCaseConstants = [
   },
   {
     id: 6,
-    icon: GovtPSU,
+    icon: Government,
     name: "Government",
     info: [
       // {
       //   title: "Citizen Grievence Management",
       //    icon: "",
-      //   description: `Designing and implementing risk management frameworks, 
+      //   description: `Designing and implementing risk management frameworks,
       //           Risk appetite definition, Strategic, operational, and reputational risk assessments`,
       //   useCaseOptions: [],
       // },
     ],
   },
-//   {
-//     id: 7,
-//     icon: TelecomMedia,
-//     name: "Telcom,Media & Technology",
-//     info: [
-//       {
-//         title: "Advertisement Slots Planning",
-//          icon: "",
-//         description: `Designing and implementing risk management frameworks, 
-//                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
-//         useCaseOptions: [],
-//       },
-//     ],
-//   },
+  //   {
+  //     id: 7,
+  //     icon: TelecomMedia,
+  //     name: "Telcom,Media & Technology",
+  //     info: [
+  //       {
+  //         title: "Advertisement Slots Planning",
+  //          icon: "",
+  //         description: `Designing and implementing risk management frameworks,
+  //                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+  //         useCaseOptions: [],
+  //       },
+  //     ],
+  //   },
 ];

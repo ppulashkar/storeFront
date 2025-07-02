@@ -1,17 +1,21 @@
-import KnowledgeMangament from "../assets/KnowledgeManagement.svg";
-import RiskProcess from "../assets/RiskProcess.svg";
-import { DeloitteInternalData } from "../constants/DeloitteInternalConstants";
-
+import KnowledgeManagement from "../assets/svg/Internal/KnowledgeManagement.svg";
+import LearningAndDevelopment from "../assets/svg/Internal/LearningAndDevelopment.svg";
+import WorkOrchestration from "../assets/svg/Internal/WorkOrchestration.svg";
+import RFPAssist from "../assets/svg/Internal/Knowledge Activation/RFPAssist.svg";
+import RiskAndComplaince from "../assets/svg/Internal/RiskAndComplaince.svg";
+import SkillMapping from "../assets/svg/Internal/Learning & Development/SkillMapping.svg";
+import CVMapping from "../assets/svg/Internal/Work Orchestration/CVMapping.svg";
+import AuditTrailMonitoring from "../assets/svg/Internal/RiskComplaince/AuditTrailMonitoring.svg";
 
 export const DeloitteInternalUseCaseConstants = [
   {
     id: 1,
     name: "Knowledge Activation",
-    icon: KnowledgeMangament,
+    icon: KnowledgeManagement,
     info: [
       {
         title: "RFP Assist",
-        icon: "",
+        icon: RFPAssist,
         description:
           "Enable intelligent search through documents, manuals, and past projects.",
         useCaseOptions: [
@@ -24,11 +28,11 @@ export const DeloitteInternalUseCaseConstants = [
   {
     id: 2,
     name: "Learning & Development",
-    icon: RiskProcess,
+    icon: LearningAndDevelopment,
     info: [
       {
         title: "Skills Mapping",
-        icon: "",
+        icon: SkillMapping,
         description:
           "AI-powered training recommendations based on employee profiles.",
         useCaseOptions: [
@@ -41,11 +45,11 @@ export const DeloitteInternalUseCaseConstants = [
   {
     id: 3,
     name: "Work Orchestration",
-    icon: KnowledgeMangament,
+    icon: WorkOrchestration,
     info: [
       {
         title: "CV Matching",
-        icon: "",
+        icon: CVMapping,
         description:
           "Automate repetitive workflows and assign tasks based on skill match.",
         useCaseOptions: [
@@ -58,11 +62,11 @@ export const DeloitteInternalUseCaseConstants = [
   {
     id: 4,
     name: "Risk, Compliance & Governance",
-    icon: RiskProcess,
+    icon: RiskAndComplaince,
     info: [
       {
         title: "Audit Trail Monitoring",
-        icon: "",
+        icon: AuditTrailMonitoring,
         description:
           "Track, monitor and validate regulatory workflows automatically.",
         useCaseOptions: [

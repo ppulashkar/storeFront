@@ -28,9 +28,10 @@ const DetailsPage = ({ tab }) => {
 
     if (link) {
       window.open(link, "_blank");
-    } else {
-      alert(`No link found for "${item?.text}"`);
-    }
+    } 
+    // else {
+    //   alert(`No link found for "${item?.text}"`);
+    // }
   };
 
   return (
