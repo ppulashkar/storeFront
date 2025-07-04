@@ -26,6 +26,7 @@ const SwipeDrawer = ({
   headerTitle,
   headerDescription,
 children,
+drawerWidth
 }) => {
   return (
     <SwipeableDrawer
@@ -35,7 +36,7 @@ children,
       onOpen={onOpen}
       PaperProps={{
         sx: {
-          width: "40vw",
+          width: drawerWidth,
           padding: 3,
           overflowX: "hidden",
         },

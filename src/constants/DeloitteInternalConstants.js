@@ -1,7 +1,7 @@
-import KnowledgeManagement from "../assets/svg/Internal/KnowledgeManagement.svg";
-import LearningAndDevelopment from "../assets/svg/Internal/LearningAndDevelopment.svg";
-import WorkOrchestration from "../assets/svg/Internal/WorkOrchestration.svg";
-import RiskAndComplaince from "../assets/svg/Internal/RiskAndComplaince.svg";
+import KnowledgeManagement from "../assets/svg/Internal/KnowledgeManagement.png";
+import LearningAndDevelopment from "../assets/svg/Internal/LearningAndDevelopment.png";
+import WorkOrchestration from "../assets/svg/Internal/WorkOrchestration.png";
+import RiskAndComplaince from "../assets/svg/Internal/RiskAndComplaince.png";
 
 export const DeloitteInternalData = [
   {

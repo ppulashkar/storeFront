@@ -1,9 +1,9 @@
-import FinTranform from "../assets/UseCaseFinTransform.svg";
-import HRTransform from "../assets/UseCaseHRTransform.svg";
-import Operate from "../assets/UserCircleGear.svg";
-import RisknAssure from "../assets/UseCaseRisknAssure.svg";
-import SalesnMarket from "../assets/UseCaseSalesnMarket.svg";
-import SupplyChain from "../assets/UseCaseSupplyChain.svg";
+import FinTranform from "../assets/UseCaseFinTransform.png";
+import HRTransform from "../assets/UseCaseHRTransform.png";
+import Operate from "../assets/UserCircleGear.png";
+import RisknAssure from "../assets/UseCaseRisknAssure.png";
+import SalesnMarket from "../assets/UseCaseSalesnMarket.png";
+import SupplyChain from "../assets/UseCaseSupplyChain.png";
 
  export const FunctionalData = [
    {

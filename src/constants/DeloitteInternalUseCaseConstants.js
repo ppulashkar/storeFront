@@ -1,11 +1,11 @@
-import KnowledgeManagement from "../assets/svg/Internal/KnowledgeManagement.svg";
-import LearningAndDevelopment from "../assets/svg/Internal/LearningAndDevelopment.svg";
-import WorkOrchestration from "../assets/svg/Internal/WorkOrchestration.svg";
+import KnowledgeManagement from "../assets/svg/Internal/KnowledgeManagement.png";
+import LearningAndDevelopment from "../assets/svg/Internal/LearningAndDevelopment.png";
+import WorkOrchestration from "../assets/svg/Internal/WorkOrchestration.png";
+import RiskAndComplaince from "../assets/svg/Internal/RiskAndComplaince.png";
 import RFPAssist from "../assets/svg/Internal/Knowledge Activation/RFPAssist.svg";
-import RiskAndComplaince from "../assets/svg/Internal/RiskAndComplaince.svg";
-import SkillMapping from "../assets/svg/Internal/Learning & Development/SkillMapping.svg";
-import CVMapping from "../assets/svg/Internal/Work Orchestration/CVMapping.svg";
-import AuditTrailMonitoring from "../assets/svg/Internal/RiskComplaince/AuditTrailMonitoring.svg";
+import SkillMapping from "../assets/svg/Internal/Learning & Development/SkillMapping.png";
+import CVMapping from "../assets/svg/Internal/Work Orchestration/CVMapping.png";
+import AuditTrailMonitoring from "../assets/svg/Internal/RiskComplaince/AuditTrailMonitoring.png";
 
 export const DeloitteInternalUseCaseConstants = [
   {

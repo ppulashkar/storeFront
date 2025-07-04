@@ -59,131 +59,151 @@ const AgenticUseCase = () => {
       setOpenDrawer(false);
     }
   };
-
-  console.log("drawerview", drawerView);
+ 
+  let leftWidth = "100%";
+  let drawerWidth = "0";
+ 
+  if (openDrawer) {
+    const w = window.innerWidth;
+    if (w < 600) {
+      leftWidth = "100%";
+      drawerWidth = "fit-content";
+    }else {
+      leftWidth = "70%";
+      drawerWidth = "30%";
+    }
+  }
   return (
-    <>
-      <Box display={"flex"} flexDirection={"column"} alignItems="flex-start">
-        <IconButton
-          onClick={onBack}
-          sx={{
-            padding: 0,
-            "&:hover": {
-              backgroundColor: "transparent",
-            },
-            cursor: "pointer",
-          }}
-        >
-          <img src={BackButton} alt="Back" width={55} height={55} />
-        </IconButton>
-        <Typography
-          sx={{
-            fontWeight: 500,
-            fontFamily: "Open Sans, sans-serif",
-            color: "#1A1A1A",
-            // textAlign: "center",
-            whiteSpace: "normal",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-            fontSize: "clamp(1rem, 3vw, 1.8rem)", // Shrinks with viewport
-          }}
-        >
-          {stateData?.subCategory}
-        </Typography>
-      </Box>
+    <Box display="flex" width="100%">
       <Box
         sx={{
-          display: "flex",
-          flexWrap: "wrap",
-          gap: 2,
-          py: 2,
-          justifyContent: "flex-start",
-          margin: "auto",
+          width: openDrawer ? leftWidth : "100%",
+          transition: "width 0.3s ease",
+          overflow: "hidden",
         }}
       >
-        {subUseCase?.map((item, index) => (
-          <Box
-            key={index}
+        <Box display={"flex"} flexDirection={"column"} alignItems="flex-start">
+          <IconButton
+            onClick={onBack}
             sx={{
-              border: "1px solid #ccc",
-              boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",
-              borderRadius: "8%",
-              width: { xs: "calc(50% - 30px)", sm: "calc(16.33% - 16px)" },
-              aspectRatio: "3 / 4",
-              display: "flex",
-              flexDirection: "column",
-              overflow: "hidden",
-              transition: "transform 0.3s ease, box-shadow 0.3s ease",
+              padding: 0,
               "&:hover": {
-                transform: "scale(1.05)",
-                boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.6)",
-                cursor: "pointer",
+                backgroundColor: "transparent",
               },
-              p: 1,
-              gap: 1,
+              cursor: "pointer",
             }}
-            onClick={() => openDrawerList(item, index)}
           >
+            <img src={BackButton} alt="Back" width={55} height={55} />
+          </IconButton>
+          <Typography
+            sx={{
+              fontWeight: 500,
+              fontFamily: "Open Sans, sans-serif",
+              color: "#1A1A1A",
+              // textAlign: "center",
+              whiteSpace: "normal",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              fontSize: "clamp(1rem, 3vw, 1.8rem)", // Shrinks with viewport
+            }}
+          >
+            {stateData?.subCategory}
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: 2,
+            py: 2,
+            justifyContent: "flex-start",
+            margin: "auto",
+          }}
+        >
+          {subUseCase?.map((item, index) => (
             <Box
+              key={index}
               sx={{
-                flex: 1,
-                // width: "100%",
+                border: "1px solid #ccc",
+                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",
+                borderRadius: "8%",
+                width: { xs: "calc(50% - 30px)", sm: "calc(18.33% - 20px)" },
+                aspectRatio: "3 / 4",
                 display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                px: 1,
-                pt: 1,
+                flexDirection: "column",
+                overflow: "hidden",
+                transition: "transform 0.3s ease, box-shadow 0.3s ease",
+                "&:hover": {
+                  transform: "scale(1.05)",
+                  boxShadow: "0px 8px 16px rgba(0, 0, 0, 0.6)",
+                  cursor: "pointer",
+                },
+                p: 1,
+                gap: 1,
               }}
+              onClick={() => openDrawerList(item, index)}
             >
               <Box
-                component="img"
-                src={item?.icon || imageDefault}
-                alt={item?.title}
                 sx={{
-                  width: "100%",
-                  height: "100%",
-                  objectFit: "contain",
+                  flex: 1,
+                  // width: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  px: 1,
+                  pt: 1,
                 }}
-              />
-            </Box>
-
-            {/* Text Box - 50% Height */}
-            <Box
-              sx={{
-                flex: 1,
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              {item?.title && (
-                <Typography
+              >
+                <Box
+                  component="img"
+                  src={item?.icon || imageDefault}
+                  alt={item?.title}
                   sx={{
-                    fontWeight: 500,
-                    fontFamily: "Open Sans, sans-serif",
-                    color: "#1A1A1A",
-                    textAlign: "center",
-                    whiteSpace: "normal",
-                    overflow: "hidden",
-                    textOverflow: "ellipsis",
-                    fontSize: "clamp(0.6rem, 1.8vw, 0.9rem)", // Shrinks with viewport
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
                   }}
-                >
-                  {item?.title}
-                </Typography>
-              )}
+                />
+              </Box>
+              {/* Text Box - 50% Height */}
+              <Box
+                sx={{
+                  flex: 1,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                {item?.title && (
+                  <Typography
+                    sx={{
+                      fontWeight: 500,
+                      fontFamily: "Open Sans, sans-serif",
+                      color: "#1A1A1A",
+                      textAlign: "center",
+                      whiteSpace: "normal",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      fontSize: "clamp(0.6rem, 1.8vw, 1rem)", // Shrinks with viewport
+                      wordBreak: "break-word",
+                      lineHeight: 1.2,
+                    }}
+                  >
+                    {item?.title}
+                  </Typography>
+                )}
+              </Box>
             </Box>
-          </Box>
-        ))}
-      </Box>
-
-      <Box>
+          ))}
+        </Box>
+      </Box> 
         <SwipeDrawer
           open={openDrawer}
           onClose={toggleDrawer(false)}
           onOpen={toggleDrawer(true)}
           onBack={handleBack}
           view={drawerView}
+          drawerWidth={drawerWidth}
         >
           {drawerView === "list" ? (
             <VerticalTabStack
@@ -195,8 +215,7 @@ const AgenticUseCase = () => {
             <DetailsPage tab={selectedTab} />
           )}
         </SwipeDrawer>
-      </Box>
-    </>
+    </Box>
   );
 };
 

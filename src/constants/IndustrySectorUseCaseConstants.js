@@ -1,17 +1,17 @@
-import FinancialServices from "../assets/svg/Sectors/Financial Services.svg"
-import ConsumerRetailCPG from "../assets/svg/Sectors/Consumer Retail and CPG.svg";
-import LifeSciencesHealthcare from "../assets/svg/Sectors/Life Sciences and Healthcare.svg";
-import TelecomMediatech from "../assets/svg/Sectors/Telecom Media and tech.svg";
-import EnergyResourcesIndustrials from "../assets/svg/Sectors/Energy resources and industrials.svg";
-import Government from "../assets/svg/Sectors/Government.svg";
+import FinancialServices from "../assets/svg/Sectors/Financial Services.png"
+import ConsumerRetailCPG from "../assets/svg/Sectors/Consumer Retail and CPG.png";
+import LifeSciencesHealthcare from "../assets/svg/Sectors/Life Sciences and Healthcare.png";
+import TelecomMediatech from "../assets/svg/Sectors/Telecom Media and tech.png";
+import EnergyResourcesIndustrials from "../assets/svg/Sectors/Energy resources and industrials.png";
+import Government from "../assets/svg/Sectors/Government.png";
 
-import CAMUPDATE from "../assets/svg/Sectors/Financial Services/CAMUPDATE.svg";
-import VirtualShoppingAssistant from "../assets/svg/Sectors/Consumer Retail and CPG/VirtualShoppingAssistant.svg";
-import DoctorsPayout from "../assets/svg/Sectors/Life Sciences and Healthcare/DoctorsPayout.svg";
-import WarrantyManagement from "../assets/svg/Sectors/Energy resources and industrials/WarrantyManagement.svg";
-import CXOnboarding from "../assets/svg/Sectors/Telecom Media and tech/CXOnboarding.svg"
-import MediaCreationReg from "../assets/svg/Sectors/Telecom Media and tech/MediaCreationReg.svg";
-import MediaSalesOrders from "../assets/svg/Sectors/Telecom Media and tech/MediaSalesOrders.svg";
+import CAMUPDATE from "../assets/svg/Sectors/Financial Services/CAMUPDATE.png";
+import VirtualShoppingAssistant from "../assets/svg/Sectors/Consumer Retail and CPG/VirtualShoppingAssistant.png";
+import DoctorsPayout from "../assets/svg/Sectors/Life Sciences and Healthcare/DoctorsPayout.png";
+import WarrantyManagement from "../assets/svg/Sectors/Energy resources and industrials/WarrantyManagement.png";
+import CXOnboarding from "../assets/svg/Sectors/Telecom Media and tech/CXOnboarding.png"
+import MediaCreationReg from "../assets/svg/Sectors/Telecom Media and tech/MediaCreationReg.png";
+import MediaSalesOrders from "../assets/svg/Sectors/Telecom Media and tech/MediaSalesOrders.png";
 export const IndustryUseCaseConstants = [
   {
     id: 1,

@@ -1,9 +1,9 @@
-import FinancialServices from "../assets/svg/Sectors/Financial Services.svg";
-import ConsumerRetailCPG from "../assets/svg/Sectors/Consumer Retail and CPG.svg";
-import LifeSciencesHealthcare from "../assets/svg/Sectors/Life Sciences and Healthcare.svg";
-import TelecomMediatech from "../assets/svg/Sectors/Telecom Media and tech.svg";
-import EnergyResourcesIndustrials from "../assets/svg/Sectors/Energy resources and industrials.svg";
-import Government from "../assets/svg/Sectors/Government.svg";
+import FinancialServices from "../assets/svg/Sectors/Financial Services.png";
+import ConsumerRetailCPG from "../assets/svg/Sectors/Consumer Retail and CPG.png";
+import LifeSciencesHealthcare from "../assets/svg/Sectors/Life Sciences and Healthcare.png";
+import TelecomMediatech from "../assets/svg/Sectors/Telecom Media and tech.png";
+import EnergyResourcesIndustrials from "../assets/svg/Sectors/Energy resources and industrials.png";
+import Government from "../assets/svg/Sectors/Government.png";
 
 export const IndustrySectorsData = [
   {
