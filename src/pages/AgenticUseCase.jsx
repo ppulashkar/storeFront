@@ -115,7 +115,8 @@ const AgenticUseCase = () => {
             display: "flex",
             flexWrap: "wrap",
             gap: 2,
-            py: 2,
+            py: 4,
+            px: 2,
             justifyContent: "flex-start",
             margin: "auto",
           }}
@@ -127,7 +128,7 @@ const AgenticUseCase = () => {
                 border: "1px solid #ccc",
                 boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.5)",
                 borderRadius: "8%",
-                width: { xs: "calc(50% - 30px)", sm: "calc(18.33% - 20px)" },
+                width: { xs: "calc(50% - 30px)", sm: "calc(16.33% - 20px)" },
                 aspectRatio: "3 / 4",
                 display: "flex",
                 flexDirection: "column",
