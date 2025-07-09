@@ -9,6 +9,7 @@ import TradePromo from "../assets/svg/SalesMarketing/TradePromo.png";
 import MarketingPlan from "../assets/svg/SalesMarketing/MarketingPlan.png";
 import CampaignPerformance from "../assets/svg/SalesMarketing/CampaignPerformance.png";
 import SalesAssistant from "../assets/svg/SalesMarketing/SalesAssistant.png";
+import DashboardInsightGen from "../assets/svg/SalesMarketing/DashboardInsightGen.png";
 import ProcureToPay from "../assets/svg/FinancialTransformation/P2P.png";
 import OrderToCash from "../assets/svg/FinancialTransformation/OrderToCash.png";
 import RecordToReport from "../assets/svg/FinancialTransformation/RecordToReport.png";
@@ -34,7 +35,7 @@ export const FunctionalUseCaseConstants = [
         title: "Sales Planning",
         icon: SalesPlanning,
         description: `A solution dedicated to streamlining the sales planning process by automating manual tasks like validation, audit, order creation, and KPI checks using a suite of intelligent agents.
-Key components include a supervisor agent for coordination, summary agent for meeting notes and reminders, store management agent for inventory handling, and sales agent for sales operations and insights. 
+Key components include a supervisor agent for coordination, summary agent for meeting notes and reminders, store management agent for inventory handling, and sales agent for sales operations and insights.
 This reduces errors, redundancies, and turnaround time caused by human intervention. It enhances operational efficiency, accelerates case resolution, and delivers a seamless cross-platform experience. `,
         useCaseOptions: [
           {
@@ -49,6 +50,7 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
             sponsoredBy: "Manu Singla",
             description: `Designing and implementing risk management frameworks,
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+            agentType: "multi",
           },
           /*  {
             id: 1012,
@@ -77,13 +79,14 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
             name: "Query Sense ",
             link: "",
             videoLink:
-              "https://indeloitte-my.sharepoint.com/:v:/g/personal/kmalar_deloitte_com/ERbGTt8PVi5AoJDkQ0t1K2wBl5HfZxLRFuPuoj_39ep3bg?e=TwKmlI",
+              "https://apcdeloitte.sharepoint.com/sites/AgenticAICoreteam/_layouts/15/stream.aspx?id=%2Fsites%2FAgenticAICoreteam%2FShared%20Documents%2FAgentic%20AI%2FAsset%5FDemo%5FVideos%2FAgenticAI%2FQuery%20Sense%20Demo%5Fv4%2E0%204%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E644ba142%2D9ece%2D4a03%2D907e%2D3fa01b56c1fa",
             workFlowLink:
-              "https://indeloitte-my.sharepoint.com/:p:/g/personal/kmalar_deloitte_com/EcjRzGCxl25Nk5xfUB9SQnMBttXtWT04LKdgrnib9kgB5A?e=MgLAyu",
+              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EXP05ZVokCxDvjr_GrJeNY8B3K3T8sEk8TnEa_Qh3bMDnw?e=3mUCPq&wdLOR=c60EB9354-8FF4-41C7-9028-B79057357BFA",
             poweredBy: "",
             sponsoredBy: "",
             description: `Designing and implementing risk management frameworks,
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+            agentType: "single",
           },
         ],
       },
@@ -96,7 +99,7 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
       },
       {
         id: 105,
-        title: "Sales assistant",
+        title: "Sales Assistant",
         icon: SalesAssistant,
         description: `Automation of insights and recommendations from the data on the platform and to identify any mismatches/ missing data for QC`,
         useCaseOptions: [
@@ -105,11 +108,30 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
             name: "Qora",
             link: "",
             videoLink:
-              "https://indeloitte-my.sharepoint.com/:v:/g/personal/kmalar_deloitte_com/EdcTSGPYhJ9GpPFF4TsM5_0B6uVwSzzcIQySJdZTRjqjww?e=AhjoV9",
+              "https://apcdeloitte.sharepoint.com/sites/AgenticAICoreteam/_layouts/15/stream.aspx?id=%2Fsites%2FAgenticAICoreteam%2FShared%20Documents%2FAgentic%20AI%2FAsset%5FDemo%5FVideos%2FAgenticAI%2FQORA%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb93dd50b%2Dbeef%2D43f6%2Dbda1%2D9262c258c2e7",
             workFlowLink:
-              "https://indeloitte-my.sharepoint.com/:p:/g/personal/kmalar_deloitte_com/EZBhIxTm095FnWUyo7Th02IBLeROXtQLP-_4WUxLxi19OA?e=mGLBQv",
+              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/Ebp68PLDs_RHtlB9wSd6_V0BkCUZtXdRh5ifJk_EADb8Og?e=XaRkPW&wdLOR=cF21B332C-C617-4B46-A00A-B8144B77C698",
             description: `Designing and implementing risk management frameworks,
                 Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+            agentType: "single",
+          },
+        ],
+      },
+      {
+        id: 106,
+        title: "Dashboard & Insights Generation",
+        icon: DashboardInsightGen,
+        description: `Automation of insights and recommendations from the data on the platform and to identify any mismatches/ missing data for QC`,
+        useCaseOptions: [
+          {
+            id: 1061,
+            name: "Ibic",
+            link: "",
+            videoLink: "",
+            workFlowLink: "",
+            description: `Designing and implementing risk management frameworks,
+                Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+            agentType: "single",
           },
         ],
       },
@@ -125,7 +147,7 @@ This reduces errors, redundancies, and turnaround time caused by human intervent
         title: "Procure to Pay",
         icon: ProcureToPay,
         description: `The solution automates the manual and error-prone P2P process through intelligent agent-led workflows.
-It uses OCR, invoice extraction, 3-way matching, validation, exception-handling agents (among others) to streamline vendor onboarding, invoice management, and payment processing. By minimizing human intervention, the tool significantly reduces effort, errors, and delays. 
+It uses OCR, invoice extraction, 3-way matching, validation, exception-handling agents (among others) to streamline vendor onboarding, invoice management, and payment processing. By minimizing human intervention, the tool significantly reduces effort, errors, and delays.
 It enables seamless, autonomous PTP process. The solution leads to significant reduction in man-hours and error elimination, enhancing overall procurement efficiency.`,
         useCaseOptions: [
           {
@@ -139,13 +161,14 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
           {
             id: 2013,
             name: "Invoice Processing",
-            link: "http://13.127.21.116:5000/",
+            link: "http://13.127.21.116:5001/logout",
             poweredBy: "Agentic CoE",
             sponsoredBy: "Pallav Chaturvedi",
+            agentType: "multi",
             videoLink:
-              "https://indeloitte-my.sharepoint.com/personal/sreeray_deloitte_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsreeray%5Fdeloitte%5Fcom%2FDocuments%2FDesktop%2FAgentic%2FP2P%20Invoice%20Processing%20Demo%20Video%2Emp4&ct=1751286258942&or=Teams%2DHL&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4562cde1%2D7e7e%2D422d%2Dad98%2D275dc1d630e2",
+              "https://indeloitte-my.sharepoint.com/:v:/g/personal/sreeray_deloitte_com/EVHp2SVECG5MnOmz50OpYbYBcPtZfK7Fwi6liGdIgl3s_A?e=zspb82",
             workFlowLink:
-              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/ETcO-FcOHN9FgTLwCYwO_nMB1qXhQrQiq3yAKR2VXKpQUQ?e=2r6eja&wdLOR=cAE7C893A-D231-4D2E-9ECF-02F3CDB21B3E",
+              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/ETcO-FcOHN9FgTLwCYwO_nMB1qXhQrQiq3yAKR2VXKpQUQ?e=2r6eja&wdLOR=cAEB708D1-FE48-41F0-B87E-441A1A93F786",
           },
           {
             id: 2014,
@@ -176,7 +199,7 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
       },
       {
         id: 205,
-        title: "Finance documentation",
+        title: "Finance Documentation",
         icon: FinanceDocumentation,
         description: `Agentic solution to close deemed settlement transactions using fuzzy logic and getting additional information as needed`,
         useCaseOptions: [
@@ -187,8 +210,10 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
             poweredBy: "",
             sponsoredBy: "",
             videoLink:
-              "https://apcdeloitte.sharepoint.com/sites/AgenticAICoreteam/_layouts/15/stream.aspx?id=%2Fsites%2FAgenticAICoreteam%2FShared%20Documents%2FAgentic%20AI%2FAsset%5FDemo%5FVideos%2FAgenticAI%2FFinAgent%20demo%20video%5F27thFeb%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1751008a%2D9787%2D4a5b%2D9bb4%2D504187432016",
-            workFlowLink: "",
+              "https://apcdeloitte.sharepoint.com/:v:/s/DeloitteIndiaGenAICapabilityVideos/Ed8hZ7_FU31EvsBA3J2tzpIB_TxUwcXtnMnPOEwvPnQ51g?e=myQ2wn",
+            workFlowLink:
+              "https://apcdeloitte.sharepoint.com/:p:/s/DeloitteIndiaGenAICapabilityVideos/EfS4wAaoE7dAkiiCJYJY33ABm3Vh1ubXQgMLFhbYNssUPA?e=it0m2g",
+            agentType: "single",
           },
         ],
       },
@@ -205,16 +230,55 @@ It enables seamless, autonomous PTP process. The solution leads to significant r
         icon: SDLC,
         description: `Agentic transformation of entire SDLC process by the use of multiple agents such as Requirement Gathering, Design, Code Generation, Testing, Deployment, Review & Governance. It offers persona based access to relevant workflows across different phases of SDLC`,
         useCaseOptions: [
+          // {
+          //   id: 3011,
+          //   name: "SDLC Toolkit",
+          //   link: "https://agenticaifrontend-392853354701.us-central1.run.app",
+          //   poweredBy: "Agentic CoE",
+          //   sponsoredBy: "Vadiraj Muthya",
+          //   videoLink:
+          //     "https://indeloitte-my.sharepoint.com/personal/ssanjayamdekar_deloitte_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fssanjayamdekar%5Fdeloitte%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FBRD%20Generation%20%2D%20Made%20with%20Clipchamp%2027Jun2025%2Emp4&ct=1751443851481&or=Outlook%2DBody&cid=9095CC82%2D7877%2D410D%2D9AE6%2D9B485460D178&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8123f1a4%2Da28a%2D4536%2D9335%2D05bafb70c04f",
+          //   workFlowLink:
+          //     "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EZiswK9jCB9LsSygSuiCWRcB6lAUdl2Lk7HT5DP7oE09kQ?e=ZFYDcJ&wdLOR=cFDEE89EF-E858-4831-8D90-264AB562B033",
+          // }
           {
-            id: 3014,
-            name: "SDLC Toolkit",
-            link: "https://agenticaifrontend-392853354701.us-central1.run.app",
+            id: 3011,
+            name: "Code Generation",
+            link: "",
+            poweredBy: "",
+            sponsoredBy: "",
+            videoLink: "",
+            workFlowLink: "",
+          },
+          {
+            id: 3012,
+            name: "Testing",
+            link: "",
+            poweredBy: "",
+            sponsoredBy: "",
+            videoLink: "",
+            workFlowLink: "",
+          },
+          {
+            id: 3013,
+            name: "BRD Generation",
+            link: "https://agenticaifrontend-392853354701.us-central1.run.app/",
             poweredBy: "Agentic CoE",
             sponsoredBy: "Vadiraj Muthya",
-            videoLink:
-              "https://indeloitte-my.sharepoint.com/personal/ssanjayamdekar_deloitte_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fssanjayamdekar%5Fdeloitte%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FBRD%20Generation%20%2D%20Made%20with%20Clipchamp%2027Jun2025%2Emp4&ct=1751443851481&or=Outlook%2DBody&cid=9095CC82%2D7877%2D410D%2D9AE6%2D9B485460D178&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8123f1a4%2Da28a%2D4536%2D9335%2D05bafb70c04f",
+            videoLink: "",
             workFlowLink:
-              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EZiswK9jCB9LsSygSuiCWRcB6lAUdl2Lk7HT5DP7oE09kQ?e=ZFYDcJ&wdLOR=cFDEE89EF-E858-4831-8D90-264AB562B033",
+              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EZiswK9jCB9LsSygSuiCWRcB6lAUdl2Lk7HT5DP7oE09kQ?e=ZFYDcJ&wdLOR=cC0743E84-D567-4B38-BAC3-118F6EB2DB39",
+            agentType: "multi",
+          },
+          {
+            id: 3014,
+            name: "Code Migration",
+            link: "http://34.93.27.39:8080",
+            poweredBy: "",
+            sponsoredBy: "",
+            videoLink: "",
+            workFlowLink: "",
+            agentType: "multi",
           },
         ],
       },
@@ -255,35 +319,34 @@ Low code tool allows easier integration & management of multiple technology solu
         useCaseOptions: [
           {
             id: 4011,
-            name: "CV Matching",
-            link: "https://smartmatch-cv-ingenai0007.apps.inmumocpcl.atrapa.deloitte.com/",
-            poweredBy: "Salman Siddiqui",
-            sponsoredBy: "Salman Siddiqui",
-            videoLink:
-              "https://apcdeloitte.sharepoint.com/:v:/r/sites/AgenticAICoreteam/Shared%20Documents/Agentic%20AI/Use_Cases/_Agentic_AI_Office_Use_Cases/CV%20Matching/Final%20Demo%20Video%20v3.0.mp4?csf=1&web=1&e=nD0U2K",
-            workFlowLink:
-              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/ERKWIIEgv6ZIu3P6JBWQ-ssBioyZYX5emZoxicpM472rHg?e=DkjYFg&wdLOR=cC91D575B-26A1-4FA4-87DD-979AFD6E8A1E",
-          },
-          {
-            id: 4012,
             name: "Recruitment",
             link: "",
             videoLink:
-              "https://apcdeloitte.sharepoint.com/sites/AgenticAICoreteam/_layouts/15/stream.aspx?id=%2Fsites%2FAgenticAICoreteam%2FShared%20Documents%2FAgentic%20AI%2FAsset%5FDemo%5FVideos%2FAgenticAI%2FStorefront%2FRecruitment%5FVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E8c339664%2D7231%2D43ec%2Dba7f%2D4f1c4bd00d2c",
+              "https://apcdeloitte.sharepoint.com/sites/AgenticAICoreteam/_layouts/15/stream.aspx?id=%2Fsites%2FAgenticAICoreteam%2FShared%20Documents%2FAgentic%20AI%2FAsset%5FDemo%5FVideos%2FAgenticAI%2FStorefront%2FRecruitment%5FVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb0921ab5%2D8dcf%2D49be%2D81b4%2D643618f2e326",
             workFlowLink:
-              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EYuObaLzUb1GkExxxpKNl7QBoSYkFhS7Oag-I2yAmlDq3Q?e=KrbtIy&wdLOR=c2270ABD2-0AEC-4ECF-BFBC-0196AB640E68",
+              "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EYuObaLzUb1GkExxxpKNl7QBoSYkFhS7Oag-I2yAmlDq3Q?e=KrbtIy&wdLOR=c744FC3B6-771B-44B5-9327-432FC271C2D2",
+            agentType: "multi",
           },
+          // {
+          //   id: 4012,
+          //   name: "",
+          //   link: "",
+          //   videoLink: "",
+          //   workFlowLink: "",
+          //   agentType: "multi",
+          // },
         ],
       },
       {
         id: 402,
-        title: "Workforce Productivity & Management",
+        title: "Workforce Productivity",
         icon: Productivity,
         description: ``,
         useCaseOptions: [
           {
             id: 4021,
             name: "Performance Management",
+            agentType: "multi",
           },
         ],
       },
@@ -293,20 +356,7 @@ Low code tool allows easier integration & management of multiple technology solu
     id: 5,
     icon: SupplyChain,
     name: "Supply Chain & Logistics",
-    info: [
-      {
-        id: 501,
-        title: "Supply chain management",
-        icon: SupplyChainLogistics,
-        description: ``,
-        useCaseOptions: [
-          {
-            id: 5021,
-            name: "Demand forecasting & planning",
-          },
-        ],
-      },
-    ],
+    info: [],
   },
   {
     id: 6,
@@ -318,7 +368,7 @@ Low code tool allows easier integration & management of multiple technology solu
         title: "Compliance",
         icon: Complaince,
         description: `The solution automates the manual audit of IT system security controls by leveraging an agentic approach. The agent reads screenshots, extracts parameters, checks compliance against the CSI benchmark guide, and identifies reasons and remediations for non-compliance.
-It then compiles the findings into a structured report format. This eliminates the need for repetitive manual reviews and enhances accuracy. 
+It then compiles the findings into a structured report format. This eliminates the need for repetitive manual reviews and enhances accuracy.
 The solution significantly reduces man-hours and boosts overall audit efficiency.`,
         useCaseOptions: [
           {
@@ -327,9 +377,11 @@ The solution significantly reduces man-hours and boosts overall audit efficiency
             link: "http://52.66.253.205:5173/login",
             poweredBy: "Agentic CoE",
             sponsoredBy: "Lakshmi Allamsetty",
-            videoLink: "videoLink",
+            videoLink:
+              "https://indeloitte-my.sharepoint.com/:v:/g/personal/njohri_deloitte_com/ETOGyVl1HapFiXqAXg3LOiIBagEQdwUbta17oXIyjP6YAw?e=PeohXq",
             workFlowLink:
               "https://apcdeloitte.sharepoint.com/:p:/s/AgenticAICoreteam/EcruwqiUvXdNsXhLskVji40BClnp20KiHqXJbzyusFpXJw?e=yJC9Kx&wdLOR=c117D08CB-486E-4218-BB9D-B76B2012BB9E",
+            agentType: "multi",
           },
         ],
       },

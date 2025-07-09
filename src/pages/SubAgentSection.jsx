@@ -68,7 +68,7 @@ const SubAgentSection = () => {
               height: "auto",
               objectFit: "cover",
             }}
-            padding={2}
+            padding={1}
           />
           {item?.name && (
             <Typography

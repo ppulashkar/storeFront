@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <Box
       sx={{
-        backgroundColor: "#2C5234",
+        background: "linear-gradient(90deg, #515151 0%, #191919 100%);",
         display: "flex",
         flexWrap: "wrap",
         gap: 4,

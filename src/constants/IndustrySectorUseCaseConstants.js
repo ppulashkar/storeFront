@@ -39,13 +39,13 @@ export const IndustryUseCaseConstants = [
     name: "Consumer - Retail & CPG",
     icon: ConsumerRetailCPG,
     info: [
-      {
-        title: "Virtual assistant for shopping",
-        icon: VirtualShoppingAssistant,
-        description: `Designing and implementing risk management frameworks, 
-                Risk appetite definition, Strategic, operational, and reputational risk assessments`,
-        useCaseOptions: [],
-      },
+      // {
+      //   title: "Virtual assistant for shopping",
+      //   icon: VirtualShoppingAssistant,
+      //   description: `Designing and implementing risk management frameworks, 
+      //           Risk appetite definition, Strategic, operational, and reputational risk assessments`,
+      //   useCaseOptions: [],
+      // },
       /* {
         title: "Claim Processesing",
         icon: "",

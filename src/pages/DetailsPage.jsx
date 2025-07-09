@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { AppContext } from "../context/AppContext";
 import { Box, Typography } from "@mui/material";
 import { DetailsConstants } from "../constants/DetailsConstants";
@@ -6,20 +6,21 @@ import "../pages/css/DetailsPage.css";
 
 const DetailsPage = ({ tab }) => {
   const { stateData } = useContext(AppContext);
+  const [activeButtonId, setActiveButtonId] = useState(null);
 
   if (!stateData) return <div>Context not available</div>;
 
   const navigatePage = (item) => {
     let link = null;
 
-    switch (item?.text) {
-      case "Live demo":
+    switch (item?.id) {
+      case 1:
         link = tab?.link;
         break;
-      case "Demo video":
+      case 2:
         link = tab?.videoLink;
         break;
-      case "Agentic workflow":
+      case 3:
         link = tab?.workFlowLink;
         break;
       default:
@@ -28,10 +29,7 @@ const DetailsPage = ({ tab }) => {
 
     if (link) {
       window.open(link, "_blank");
-    } 
-    // else {
-    //   alert(`No link found for "${item?.text}"`);
-    // }
+    }
   };
 
   return (
@@ -51,28 +49,43 @@ const DetailsPage = ({ tab }) => {
       >
         {tab?.name}
       </Typography>
+
       <div className="detail-options">
-        {/* Use Case Title */}
         <div className="use-case-name">{stateData.selectedSubUseCase}</div>
 
-        {/* Grid of Actions */}
         <div className="detail-grid">
           {stateData.details?.main &&
-            DetailsConstants.map((item) => (
-              <div
-                key={item.id}
-                className="detail-button"
-                data-action={item.action}
-                onClick={() => navigatePage(item)}
-              >
-                <img
-                  src={item.icon}
-                  className="item-icon-img"
-                  alt={item.text}
-                />
-                <div className="item-text">{item.text}</div>
-              </div>
-            ))}
+            DetailsConstants.map((item) => {
+              const isDisabled =
+                (item.id === 1 && !tab?.link) ||
+                (item.id === 2 && !tab?.videoLink) ||
+                (item.id === 3 && !tab?.workFlowLink);
+
+              const isActive = activeButtonId === item.id;
+
+              return (
+                <div
+                  key={item.id}
+                  className={`detail-button ${isDisabled ? "disabled" : ""} ${
+                    isActive ? "active" : ""
+                  }`}
+                  data-action={item.action}
+                  onClick={() => {
+                    if (!isDisabled) {
+                      setActiveButtonId(item.id);
+                      navigatePage(item);
+                    }
+                  }}
+                >
+                  <img
+                    src={item.icon}
+                    className="item-icon-img"
+                    alt={item.text}
+                  />
+                  <div className="item-text">{item.text}</div>
+                </div>
+              );
+            })}
         </div>
 
         {(tab?.sponsoredBy || tab?.poweredBy) && (

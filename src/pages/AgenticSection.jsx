@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import Agentic_Logo from "../assets/svg/Agentic_Logo.svg";
+import Agentic_Logo from "../assets/svg/Agentic_Logo.png";
 import "../App.css";
 
 const AgenticSection = () => {

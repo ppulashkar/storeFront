@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { Stack, Button, Box, Typography } from "@mui/material";
 import { AppContext } from "../context/AppContext";
 import { CategoryList } from "../constants/CategoryContants";
@@ -22,6 +22,7 @@ const PillMenu = () => {
           <Button
             key={index}
             sx={{
+              backgroundColor: "#F0FFFF",
               border: isActive ? "2px solid #699120" : "2px solid transparent",
               borderImageSlice: 1,
               backdropFilter: "blur(25px)",
@@ -36,8 +37,13 @@ const PillMenu = () => {
               justifyContent: "center",
               gap: 1,
               textTransform: "none",
-              opacity: isActive ? 1 : 0.5,
-              transition: "opacity 0.3s ease",
+              color: isActive ? "#000" : "#666",
+              transform: isActive ? "translateY(-2px)" : "none",
+              transition: "all 0.3s ease-in-out",
+              "&:hover": {
+                transform: "translateY(-2px)",
+                boxShadow: "0px 12px 24px rgba(0, 0, 0, 0.12)",
+              },
             }}
             onClick={() => selectionChange(item?.name)}
           >
@@ -54,10 +60,11 @@ const PillMenu = () => {
             <Typography
               sx={{
                 fontFamily: "Open Sans, sans-serif",
-                color: "#2C5234",
+                color: isActive ? "#2C5234" : "#000000",
                 fontSize: "20px",
-                fontWeight:"500",
+                fontWeight: "500",
                 lineHeight: 1.5,
+                transition: "color 0.3s ease",
               }}
             >
               {item?.name}

@@ -1,21 +1,21 @@
-import Demo from "../assets/DemoIcon.svg";
-import LiveDemo from "../assets/LiveDemoIcon.svg";
-import AgenticFlow from "../assets/AgenticFlowIcon.svg";
+import Demo from "../assets/CallIcon.png";
+import LiveDemo from "../assets/Classroom.png";
+import AgenticFlow from "../assets/FlowChart.png";
 
 export const DetailsConstants = [
   {
     id: 1,
-    text: `Live demo`,
+    text: `LIVE Demo`,
     icon: Demo,
   },
   {
     id: 2,
-    text: `Demo video`,
+    text: `Demo Video`,
     icon: LiveDemo,
   },
   {
     id: 3,
-    text: `Agentic workflow`,
+    text: `Agentic AI Flow`,
     icon: AgenticFlow,
   },
 ];

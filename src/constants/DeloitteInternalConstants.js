@@ -1,4 +1,4 @@
-import KnowledgeManagement from "../assets/svg/Internal/KnowledgeManagement.png";
+import KnowledgeActivation from "../assets/svg/Internal/KnowledgeActivation.png";
 import LearningAndDevelopment from "../assets/svg/Internal/LearningAndDevelopment.png";
 import WorkOrchestration from "../assets/svg/Internal/WorkOrchestration.png";
 import RiskAndComplaince from "../assets/svg/Internal/RiskAndComplaince.png";
@@ -7,7 +7,7 @@ export const DeloitteInternalData = [
   {
     id: 1,
     name: "Knowledge Activation",
-    icon: KnowledgeManagement,
+    icon: KnowledgeActivation,
   },
   {
     id: 2,
